@@ -5,4 +5,4 @@ if all the colors get matched then U WIN and dont worry u need not have to give 
 
 Its a simple Vanilla Js Project based on DOM particularly 
 
-Link : 
+Link : https://saikatxshrey.github.io/Color-Lottery/.
