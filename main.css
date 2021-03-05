@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* main container */
+.container {
+  min-height: 100vh;
+  display: flex;
+  border: 20px solid rgb(0, 0, 0);
+}
+
+/* box-1 */
+.container-1 {
+  height: 50rem;
+  width: 34.33rem;
+  background-color: white;
+}
+/* box-2 */
+.container-2 {
+  height: 50rem;
+  width: 34.33rem;
+  background-color: white;
+  /*positioning the button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* box-3 */
+.container-3 {
+  height: 50rem;
+  width: 34.33rem;
+  background-color: white;
+}
+
+/* button styling */
+.Btn {
+  color: whitesmoke;
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.25px 0.5px;
+  border: 3px solid whitesmoke;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  transition: all ease-in-out 1s;
+  font-weight: bold;
+}
+/* button hover effect */
+.Btn:hover {
+  background: rgb(0, 0, 0);
+  box-shadow: 0 0 50px rgb(15, 223, 238);
+  width: 15rem;
+}
